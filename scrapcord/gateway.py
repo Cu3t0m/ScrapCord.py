@@ -65,7 +65,7 @@ class HeartbeatHandler(threading.Thread):
         super().__init__(
             target=self._handler,
             daemon=True,
-            name='aiocord-heartbeat-handler'
+            name='scrapcord-heartbeat-handler'
             )
 
     def _handler(self):
@@ -136,8 +136,8 @@ class DiscordWebsocket:
                 "intents": self.intents.value,
                 "properties": {
                     "$os": sys.platform,
-                    "$browser": "AIOCord",
-                    "$device": "AIOCord"
+                    "$browser": "ScrapCord",
+                    "$device": "ScrapCord"
                 }
             }
         }

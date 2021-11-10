@@ -34,7 +34,7 @@ class Missing:
         return False
 
     def __repr__(self):
-        return '<aiocord.utils.MISSING>'
+        return '<scrapcord.utils.MISSING>'
 
 MISSING = Missing()
 

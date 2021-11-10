@@ -86,7 +86,7 @@ for documentation purposes only.
 DiscordModel
 ~~~~~~~~~~~~
 
-.. autoclass:: aiocord.abc.DiscordModel
+.. autoclass:: scrapcord.abc.DiscordModel
     :members:
 
 Discord Data Models

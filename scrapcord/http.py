@@ -24,7 +24,7 @@ SOFTWARE.
 from __future__ import annotations
 from typing import TYPE_CHECKING, Optional, ClassVar
 
-import aiocord
+import scrapcord
 import aiohttp
 
 if TYPE_CHECKING:

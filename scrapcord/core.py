@@ -185,7 +185,7 @@ class Client:
 
     def _schedule_event(self, coro: Coroutine[..., Any], *args: Any) -> asyncio.Task:
         wrap = coro(*args)
-        return asyncio.create_task(wrap, name=f'aiocord-event-dispatch: {coro.__name__[:3]}')
+        return asyncio.create_task(wrap, name=f'scrapcord-event-dispatch: {coro.__name__[:3]}')
 
     # properties
 
